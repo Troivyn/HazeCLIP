@@ -1,0 +1,10 @@
+data:
+  crop_size: 256
+  gt_folder: "./data/RIDCP/rgb_500/"
+  depth_folder: "./data/RIDCP/depth_500/"
+
+train:
+  lr: 3e-5
+  batch_size: 24
+  num_epochs: 200
+  exp_dir: "./experiment/pretrain/"

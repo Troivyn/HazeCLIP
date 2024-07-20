@@ -1,0 +1,3 @@
+weight: "./weights/model.pth"
+input_folder: "./images/"
+output_folder: "./outputs/"

@@ -1,0 +1,10 @@
+data:
+  crop_size: 256
+  folder: './data/COMPOUND/'
+
+train:
+  lr: 1e-7
+  batch_size: 10
+  num_epochs: 14
+  exp_dir: "./experiment/finetune/"
+  resume: './experiment/pretrain/checkpoints/epoch200.pth'
