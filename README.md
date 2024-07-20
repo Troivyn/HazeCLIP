@@ -1,6 +1,6 @@
 # HazeCLIP: Towards Language Guided Real-World Image Dehazing
 
-<a href="https://arxiv.org/abs/2407.13719"><img src="https://img.shields.io/badge/arXiv-PDF-b31b1b" height="16"></a>[![License](https://img.shields.io/badge/License-MIT-929292)](https://www.apache.org/licenses/LICENSE-2.0)
+<a href="https://arxiv.org/abs/2407.13719"><img src="https://img.shields.io/badge/arXiv-PDF-b31b1b"></a>[![License](https://img.shields.io/badge/License-MIT-929292)](https://www.apache.org/licenses/LICENSE-2.0)
 
 This repository contains the implementation of the paper "HazeCLIP: Towards Language Guided Real-World Image Dehazing".
 
@@ -8,7 +8,7 @@ We present HazeCLIP, a language-guided adaptation framework designed to enhance 
 
 
 
-![teaser](assets/method.pdf)
+![teaser](assets/method.png)
 ![teaser](assets/comparisons.png)
 
 ## 🛠️ Setup
@@ -25,7 +25,7 @@ Please modify the corresponding yaml configuration file before running the comma
 
 ### 🏋️ Inference 
 
-Download checkpoint from [Baidu Yun](https://pan.baidu.com/s/1TxVUKOrNRGI19BaSBDbwIg)(code: haze) and put it in ./weights/ folder. 
+Download checkpoint from [Baidu Yun ](https://pan.baidu.com/s/1TxVUKOrNRGI19BaSBDbwIg)(code: haze) and put it in ./weights/ folder. 
 
 ```py
 python inference.py --config configs/inference.yaml
@@ -45,7 +45,7 @@ python pretrain.py --config configs/pretrain.yaml
 
 #### Fine-tuning
 
-Download fine-tuning dataset from [Baidu Yun](https://pan.baidu.com/s/1TxVUKOrNRGI19BaSBDbwIg)(code: haze) and put it under ./data/ folder. 
+Download fine-tuning dataset from [Baidu Yun](https://pan.baidu.com/s/1TxVUKOrNRGI19BaSBDbwIg) (code: haze) and put it under ./data/ folder. 
 
 ```pyth
 python finetune.py --config configs/finetune.yaml
